@@ -1,0 +1,165 @@
+/* ###### footer #########*/
+
+.copyright {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.copyright a {
+color: white;	
+}
+
+/* ###### End of footer #########*/
+
+/* ##### Map ##### */
+
+.map{
+	position:relative;
+	margin-bottom:10px;
+}
+
+.map iframe{
+	width:100%;
+	height:400px;
+	border:none;
+}
+
+.map-grid iframe{
+	width:100%;
+	height:350px;
+	border:none;
+	margin:0 0 -5px 0;
+	padding:0;
+}
+/* ###### End of Map ####### */
+
+/* ###### Margin from Navbar ######## */
+
+.marginFromNavbar {
+	margin-top: 55px;
+}
+
+/* ###### End of Margin from Navbar ######## */
+
+/* ######## Scroll Up Effect ######## */
+#scroll {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  height: 50px;
+  width: 50px;
+  background-color: green;
+  border-radius: 60px;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+}
+
+#scroll span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -8px;
+  margin-top: -12px;
+  border: 8px solid transparent;
+  border-bottom-color: white;
+
+}
+
+#scroll: hover {
+  background-color: cyan;
+  opacity: 1;
+  filter: "alpha(opacity=100)";
+  -ms-filter: "alpha(opacity=100)";
+
+}
+
+
+/* ######## End of Scroll Up Effect ######## */
+
+
+/* ####### Use of Icomoon ######## */
+
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+.icon-home3 {
+
+  color: ;
+  font-size: 17px;
+}
+
+
+/* ####### End of Use of Icomoon ######## */
+
+/* ####### Slider ####### */
+
+.wrapper {
+
+  width: 66%;       
+  margin: 75px 17% 0px;
+
+
+}
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }`
+
+/* ####### End of Slider ######## */
+
+/* ####### Body Tag ####### */
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+/* ####### End of Body Tag ####### */
+
+/* ####### Portfolio ####### */
+
+.mr_top_img {
+
+  padding-top:15px;
+
+}
+
+
+/* ####### End of Portfolio ####### */
+
+.mr_top_about_list{
+
+  padding-top: 60px;
+
+}
